@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.About"
+             Title="About">
+    <Grid Padding="16" RowSpacing="2" ColumnSpacing="2"
+          BackgroundColor="Green"
+          RowDefinitions="*,*,*,*,*"
+          ColumnDefinitions="*,*">
+
+        <Label 
+               FontSize="26"
+               TextColor="White"
+               LineBreakMode="NoWrap"
+               Grid.ColumnSpan="6"
+               Text="About Us"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Grid.Row="0"/>
+        <Label 
+               FontSize="22"
+               TextColor="White"
+               LineBreakMode="NoWrap"
+               Grid.ColumnSpan="1"
+               Text="Student Id"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Grid.Row="1" Grid.Column="0"/>
+        <Label 
+               FontSize="22"
+               TextColor="White"
+               LineBreakMode="NoWrap"
+               Grid.ColumnSpan="1"
+               Text="Name"
+               HorizontalTextAlignment="Start"
+               VerticalTextAlignment="Center"
+               Grid.Row="1" Grid.Column="1"/>
+        <Label 
+               FontSize="22"
+                TextColor="White"
+               LineBreakMode="NoWrap"
+               Grid.ColumnSpan="1"
+               Text="H486J328"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Grid.Row="2" Grid.Column="0"/>
+        <Label 
+               FontSize="22"
+                TextColor="White"
+               LineBreakMode="NoWrap"
+               Grid.ColumnSpan="1"
+               Text="KOTHURI VENKATESH"
+               HorizontalTextAlignment="Start"
+               VerticalTextAlignment="Center"
+               Grid.Row="2" Grid.Column="1"/>
+        <Label 
+               FontSize="22"
+               TextColor="White"
+               LineBreakMode="NoWrap"
+               Grid.ColumnSpan="1"
+               Text="T663V743"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Grid.Row="3" Grid.Column="0"/>
+       
+        
+        <Label 
+               FontSize="22"
+               TextColor="White"
+               LineBreakMode="NoWrap"
+               Grid.ColumnSpan="1"
+               Text="AMIREDDY SAKETH REDDY"
+               HorizontalTextAlignment="Start"
+               VerticalTextAlignment="Center"
+               Grid.Row="3" Grid.Column="1"/>
+        <Label 
+               FontSize="22"
+                TextColor="White"
+               LineBreakMode="NoWrap"
+               Grid.ColumnSpan="1"
+               Text="Z435W582"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Grid.Row="4" Grid.Column="0"/>
+        <Label 
+               FontSize="22"
+                TextColor="White"
+               LineBreakMode="NoWrap"
+               Grid.ColumnSpan="1"
+               Text="MANIKANTA DEVARAPU"
+               HorizontalTextAlignment="Start"
+               VerticalTextAlignment="Center"
+               Grid.Row="4" Grid.Column="1"/>
+    </Grid>
+</ContentPage>
